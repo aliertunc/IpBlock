@@ -1,4 +1,2 @@
 # IpBlock
-Block Ip Address (Avoid a brute force attack)
-
-If any Brute Force Attack you can Block IpAddress quickly. 
+This is a middleware for blocking IP addresses that make multiple requests within a short period of time. When an incoming request is received, the middleware first checks if it is the first request made by the IP address. If it is, it creates a session for the IP address and stores some details about the request (such as the IP address, the time of the request, and a count of the number of requests made by that IP address). If it is not the first request, the middleware checks if the time between the current request and the previous request is less than a minute, and if the number of requests made by the IP address is greater than 1. If both of these conditions are true, the middleware returns a "permission denied" message and adds the IP address to a blacklist. Otherwise, it updates the session with the new request details.
