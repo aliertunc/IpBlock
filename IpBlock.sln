@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IpBlock", "IpBlock.csproj", "{7A050DC4-7914-4108-9A72-FBE688AE718C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A050DC4-7914-4108-9A72-FBE688AE718C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A050DC4-7914-4108-9A72-FBE688AE718C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A050DC4-7914-4108-9A72-FBE688AE718C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A050DC4-7914-4108-9A72-FBE688AE718C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AD65CDB-6105-4C74-A212-12B3B03E7AE2}
+	EndGlobalSection
+EndGlobal
