@@ -29,7 +29,7 @@ namespace IpBlock
             });
             services.AddDistributedMemoryCache();
             services.AddSession();
-            services.AddScoped<TraceIP>();
+            services.AddScoped<TraceIPAttribute>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

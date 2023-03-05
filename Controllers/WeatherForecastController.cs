@@ -10,7 +10,7 @@ namespace IpBlock.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    [ServiceFilter(typeof(TraceIP))]
+    [ServiceFilter(typeof(TraceIPAttribute))]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -18,7 +18,7 @@ namespace IpBlock.Controllers
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        public readonly ILogger<WeatherForecastController> _logger;
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {

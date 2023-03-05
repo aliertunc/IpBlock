@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace IpBlock.Middleware
 {
-    public class TraceIP : ActionFilterAttribute
+    public class TraceIPAttribute : ActionFilterAttribute
     {
-        IPDetail model = new IPDetail();
+       readonly IPDetail model = new IPDetail();
 
         public override void OnActionExecuting(ActionExecutingContext context)
         {
@@ -20,8 +20,7 @@ namespace IpBlock.Middleware
             {
 
 
-                var ip = context.HttpContext.Connection.RemoteIpAddress.ToString();
-                //var remoteIp =  context.HttpContext.Connection.RemoteIpAddress.ToString();
+                var ip = context.HttpContext.Connection.RemoteIpAddress.ToString(); 
                 #region FirstRequest
 
 
@@ -38,7 +37,7 @@ namespace IpBlock.Middleware
                 else
                 {
                     #region CheckDbNotAllowList
-                    //Todo
+                  
                     #endregion
 
                     #region MultipleRequest 

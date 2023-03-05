@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ali\\source\\repos\\2023\\IpBlock\\IpBlock\\IpBlock.csproj": {}
+    "C:\\Users\\ali\\source\\repos\\2023Repos\\IpBlock.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ali\\source\\repos\\2023\\IpBlock\\IpBlock\\IpBlock.csproj": {
+    "C:\\Users\\ali\\source\\repos\\2023Repos\\IpBlock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali\\source\\repos\\2023\\IpBlock\\IpBlock\\IpBlock.csproj",
+        "projectUniqueName": "C:\\Users\\ali\\source\\repos\\2023Repos\\IpBlock.csproj",
         "projectName": "IpBlock",
-        "projectPath": "C:\\Users\\ali\\source\\repos\\2023\\IpBlock\\IpBlock\\IpBlock.csproj",
+        "projectPath": "C:\\Users\\ali\\source\\repos\\2023Repos\\IpBlock.csproj",
         "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali\\source\\repos\\2023\\IpBlock\\IpBlock\\obj\\",
+        "outputPath": "C:\\Users\\ali\\source\\repos\\2023Repos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -62,6 +62,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -70,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
